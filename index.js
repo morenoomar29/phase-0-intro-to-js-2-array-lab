@@ -7,7 +7,6 @@ beforeEach(function () {
     cats.push("Milo", "Otis", "Garfield");
   });
 
-
 function destructivelyAppendCat(Ralph) {
     cats.push(Ralph)
     return cats
